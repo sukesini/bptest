@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testcases.OrderConfirmation_BANK_WIRE_PAYMENT">
+        <methods>
+          <include name="DataReading"/>
+          <include name="CloseApp"/>
+          <include name="OpenApp"/>
+        </methods>
+      </class> <!-- testcases.OrderConfirmation_BANK_WIRE_PAYMENT -->
+      <class name="testcases.OrderConfirmation_CHECK_PAYMENT">
+        <methods>
+          <include name="DataReading"/>
+          <include name="OrderConfirmation_CheckPayment"/>
+          <include name="OpenApp"/>
+          <include name="CloseApp"/>
+        </methods>
+      </class> <!-- testcases.OrderConfirmation_CHECK_PAYMENT -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

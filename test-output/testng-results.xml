@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="96639" started-at="2018-04-03T12:00:12Z" finished-at="2018-04-03T12:01:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="96639" started-at="2018-04-03T12:00:12Z" finished-at="2018-04-03T12:01:49Z">
+      <class name="testcases.OrderConfirmation_BANK_WIRE_PAYMENT">
+        <test-method status="PASS" signature="DataReading()[pri:0, instance:testcases.OrderConfirmation_BANK_WIRE_PAYMENT@3a2053]" name="DataReading" is-config="true" duration-ms="265" started-at="2018-04-03T17:30:12Z" finished-at="2018-04-03T17:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataReading -->
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:testcases.OrderConfirmation_BANK_WIRE_PAYMENT@3a2053]" name="OpenApp" is-config="true" duration-ms="39597" started-at="2018-04-03T17:30:12Z" finished-at="2018-04-03T17:30:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="OrderConfirmation_BankWirePayment()[pri:0, instance:testcases.OrderConfirmation_BANK_WIRE_PAYMENT@3a2053]" name="OrderConfirmation_BankWirePayment" duration-ms="55306" started-at="2018-04-03T17:30:52Z" finished-at="2018-04-03T17:31:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderConfirmation_BankWirePayment -->
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:testcases.OrderConfirmation_BANK_WIRE_PAYMENT@3a2053]" name="CloseApp" is-config="true" duration-ms="1708" started-at="2018-04-03T17:31:47Z" finished-at="2018-04-03T17:31:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- testcases.OrderConfirmation_BANK_WIRE_PAYMENT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
