@@ -6,18 +6,11 @@
       <class name="testcases.OrderConfirmation_BANK_WIRE_PAYMENT">
         <methods>
           <include name="DataReading"/>
+          <include name="OrderConfirmation_BankWirePayment"/>
           <include name="CloseApp"/>
           <include name="OpenApp"/>
         </methods>
       </class> <!-- testcases.OrderConfirmation_BANK_WIRE_PAYMENT -->
-      <class name="testcases.OrderConfirmation_CHECK_PAYMENT">
-        <methods>
-          <include name="DataReading"/>
-          <include name="OrderConfirmation_CheckPayment"/>
-          <include name="OpenApp"/>
-          <include name="CloseApp"/>
-        </methods>
-      </class> <!-- testcases.OrderConfirmation_CHECK_PAYMENT -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+
 import utilities.ReadExcel;
 
 public class LogIn_Page {
@@ -44,8 +45,9 @@ WebDriver driver;
 		pwd.sendKeys(ReadExcel.GetDataFromExcel("pwd"));
 		submit.click();
 		
-		if(MyAccount.getText().contains("Welcome to your account"))
+		if(MyAccount.getText().contains("Welcome to your account")){
 			System.out.println("Passed:Login is successful");
+		}
          else
 	         System.out.println("Failed:Login is failed");
 	}

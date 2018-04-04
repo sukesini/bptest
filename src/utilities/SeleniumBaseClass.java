@@ -38,8 +38,13 @@ public class SeleniumBaseClass {
 		}
 	}
 	
+	
+		
+		
+	
 	public void CloseBrowser(){
 		if(driver != null)
 			driver.quit();
 	}
 }
+

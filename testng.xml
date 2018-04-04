@@ -4,7 +4,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="testcases.OrderConfirmation_BANK_WIRE_PAYMENT"/>
-      
-          </classes>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
